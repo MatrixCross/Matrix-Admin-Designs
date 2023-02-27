@@ -1,2 +1,20 @@
-# Matrix-Admin-RFCs
-RFCs for substantial changes / feature additions to Matrix-Admin core
+# Matrix-Admin-Designs / Matrix Admin 设计稿
+这是Matrix-Admin系统的整体及细节部分的架构设计稿，整个Matrix-Admin系统需要根据该设计稿进行开发。
+
+## 设计稿包括什么内容？
+设计稿会详细指导整个系统的核心流程，以及一些周边生态。
+
+## 设计稿的生命周期
+
+设计稿会经历一下周期：
+
+- **待处理**：社区小伙伴可以提出自己的需求建议，其他社区小伙伴可以提出自己的建议，核心团队成员也会参与沟通和审批
+- **激活**：PR通过审查，并且正在实施
+- **已实现**：PR完成实施，并且发版
+- **已拒绝**：PR被关闭而且不合并
+
+## 设计稿 PR 流程
+简而言之，要对MatrixAdmin的设计进行修改，必须先提起一个PR。如果该PR被激活了，可以以最终纳入为目标实施进入 MatrixAdmin。
+
+## 实现设计稿 PR
+PR作者没有义务去实现，但是我们也是非常鼓励小伙伴参与设计稿的实现，在接受审查完成后就能够合并入MatrixAdmin主分支。
